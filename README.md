@@ -1,12 +1,14 @@
-# membership-inference
-membership inference in ML/DL
+# Inference Against Machine Learning
 
-# Data Download
-## Image
-CIFAR-10: 
-CIFAR-100:
-MNIST:
+## Paper lists
 
-## Text
+### Membership Inference
+| ID | Title | Year | Publisher |
+|- | - | - | - | 
+| a | b | c | 1 |
 
-## One-hot Feature
+### Attribute/Property Inference
+
+### Model Inversion
+
+### Model Extraction/Stealing

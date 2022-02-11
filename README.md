@@ -35,7 +35,9 @@
 | 1 | 1 | 1 | 1 | 1 | 1 |
 
 # Open Repository
+- [**Machine Learning Privacy Meter**](https://github.com/privacytrustlab/ml_privacy_meter) (NUS Data Privacy and Trustworthy Machine Learning Lab)
+- [**Adversarial Robustness Toolbox (ART)**](https://github.com/Trusted-AI/adversarial-robustness-toolbox) (IBM)
 
 # Related Link
-- [Membership Inference Attacks and Defenses on Machine Learning Models Literature](https://github.com/HongshengHu/membership-inference-machine-learning-literature)
-- [Awesome Attacks on Machine Learning Privacy](https://github.com/stratosphereips/awesome-ml-privacy-attacks#privacy-testing-tools)
+- [**Membership Inference Attacks and Defenses on Machine Learning Models Literature**](https://github.com/HongshengHu/membership-inference-machine-learning-literature)
+- [**Awesome Attacks on Machine Learning Privacy**](https://github.com/stratosphereips/awesome-ml-privacy-attacks#privacy-testing-tools)

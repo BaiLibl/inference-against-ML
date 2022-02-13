@@ -31,23 +31,23 @@
 ## Attribute/Property Inference
 | Year | Title | Adversarial Knowledge | Target Model | Attribute | Link |
 | - | - | - | - | - | - |
-| 21'CCS | [**Quantifying and Mitigating Privacy Risks of Contrastive Learning**](https://arxiv.org/abs/2102.04140) |  |  |  | [code](https://github.com/xinleihe/ContrastiveLeaks) |
-| 21'CCS | [**Honest-but-Curious Nets: Sensitive Attributes of Private Inputs Can Be Secretly Coded into the Classifiers' Outputs**](https://arxiv.org/abs/2105.12049) |  |  |  | [code](https://github.com/mmalekzadeh/honest-but-curious-nets) |
-| 21'ICDE | [**Feature Inference Attack on Model Predictions in Vertical Federated Learning**](https://arxiv.org/abs/2010.10152) |  |  |  | [code](https://github.com/xj231/featureinference-vfl) |
-| 20'ICML | [**Overlearning Reveals Sensitive Attributes**](https://arxiv.org/abs/1905.11742) |  |  |  |  |
-| 19'S&P | [**Exploiting Unintended Feature Leakage in Collaborative Learning**](https://arxiv.org/abs/1805.04049) | | | | [code](https://github.com/csong27/property-inference-collaborative-ml) |
+| 21'CCS | [**Quantifying and Mitigating Privacy Risks of Contrastive Learning**](https://arxiv.org/abs/2102.04140) | | embedding model |  | [code](https://github.com/xinleihe/ContrastiveLeaks) |
+| 21'CCS | [**Honest-but-Curious Nets: Sensitive Attributes of Private Inputs Can Be Secretly Coded into the Classifiers' Outputs**](https://arxiv.org/abs/2105.12049) | training dataset <br> confidence | classification |  | [code](https://github.com/mmalekzadeh/honest-but-curious-nets) |
+| 20'ICML | [**Overlearning Reveals Sensitive Attributes**](https://arxiv.org/abs/1905.11742) | w/b-box <br> auxiliary dataset <br> embedding | embedding/pretrained |  |  |
+| 19'S&P | [**Exploiting Unintended Feature Leakage in Collaborative Learning**](https://arxiv.org/abs/1805.04049) | auxiliary labelled dataset <br> gradient <br> few participants | collaborative learning | | [code](https://github.com/csong27/property-inference-collaborative-ml) |
 | 18'USENIX | [**AttriGuard: A Practical Defense Against Attribute Inference Attacks via Adversarial Machine Learning**](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-jia.pdf) |  |  |  | [code](https://github.com/jjy1994/AttriGuard) |
 
 
 ## Model Inversion
 | Year | Title | Restore |Adversarial Knowledge | Target Model | Link |
 | - | - | - | - | - | - |
-| 19'USENIX | [**Updates-Leak: Data Set Inference and Reconstruction Attacks in Online Learning**](https://arxiv.org/abs/1904.01067) | - | - | - | [code](https://github.com/AhmedSalem2/Updates-Leak) |
-| 20'arXiv | [**Defending Model Inversion and Membership Inference Attacks via Prediction Purification**](https://arxiv.org/abs/2005.03915) | - | - | - |  |
-| 20'CVPR | [**The Secret Revealer: Generative Model-Inversion Attacks Against Deep Neural Networks**](https://arxiv.org/abs/1911.07135) | - | - | - |  |
-| 20'CCS | [**Information Leakage in Embedding Models**](https://arxiv.org/abs/2004.00053) | - | - | - | [code](https://github.com/google/embedding-tests) |
-| 15'CCS | [**Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures**](https://dl.acm.org/doi/10.1145/2810103.2813677) | - | - | - | [code](https://github.com/yashkant/Model-Inversion-Attack) |
-| 14'CCS | [**Privacy in Pharmacogenetics: An End-to-End Case Study of Personalized Warfarin Dosing**](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-fredrikson-privacy.pdf) | - | - | - | |
+| 21'ICDE | [**Feature Inference Attack on Model Predictions in Vertical Federated Learning**](https://arxiv.org/abs/2010.10152) |  | model parameter <br> confidence | DT/LR/NN | [code](https://github.com/xj231/featureinference-vfl) |
+| 20'CVPR | [**The Secret Revealer: Generative Model-Inversion Attacks Against Deep Neural Networks**](https://arxiv.org/abs/1911.07135) |  | white-box <br> auxiliary dataset | classification |  |
+| 20'CCS | [**Information Leakage in Embedding Models**](https://arxiv.org/abs/2004.00053) | | training dataset <br> auxilarity dataset <br> embedding | embedding model | [code](https://github.com/google/embedding-tests) |
+| 19'USENIX | [**Updates-Leak: Data Set Inference and Reconstruction Attacks in Online Learning**](https://arxiv.org/abs/1904.01067) |  | auxiliary dataset <br> confidence | classification (online) | [code](https://github.com/AhmedSalem2/Updates-Leak) |
+| 15'CCS | [**Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures**](https://dl.acm.org/doi/10.1145/2810103.2813677) | | white-box+label(DT) <br> black-box+confidence(NN) | DT/NN | [code](https://github.com/yashkant/Model-Inversion-Attack) |
+| 14'CCS | [**Privacy in Pharmacogenetics: An End-to-End Case Study of Personalized Warfarin Dosing**](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-fredrikson-privacy.pdf) | | black-box <br> partial feature <br> senstitive feature distribution | classification | |
+| 20'arXiv | [**Defending Model Inversion and Membership Inference Attacks via Prediction Purification**](https://arxiv.org/abs/2005.03915) | - | - | classification |  |
 
 
 ## Model Extraction/Stealing
